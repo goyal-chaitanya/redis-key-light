@@ -1,0 +1,9 @@
+#Build directory
+build/
+
+
+#IDE configurations
+.vscode/
+
+#Local database files
+*.aof
