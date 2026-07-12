@@ -48,6 +48,6 @@ OK
 Validate the event loop throughput on your own machine:
 ```bash
 redis-benchmark -q -n 500000 -c 500 -t set,get
-
-##Author
+**
+## Author**
 Chaitanya Goyal Computer Science Undergraduate, BITS Pilani
