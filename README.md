@@ -34,6 +34,7 @@ mkdir build && cd build
 cmake ..
 make
 ./redis_server
+```
 
 ### Usage
 Open a new terminal and connect using the official Redis CLI:
@@ -43,11 +44,13 @@ redis-cli
 OK
 127.0.0.1:6379> GET engine
 "C++"
+```
 
 ### Run the stress test
 Validate the event loop throughput on your own machine:
 ```bash
 redis-benchmark -q -n 500000 -c 500 -t set,get
-**
-## Author**
-Chaitanya Goyal Computer Science Undergraduate, BITS Pilani
+```
+
+## Author
+Chaitanya Goyal (Computer Science Undergraduate, BITS Pilani)
